@@ -6,6 +6,12 @@ class TestapiController < ApplicationController
     end
     
     def unitTests()
-        render :json => {:errCode => 1}
+        output=`ruby -I test test/unit/user_test.rb`
+        words=output.split(" ")
+        index=words.index("tests,")-1
+        test=Integer(words[index])
+        index=words.index("failures,")-1
+        fail=Integer(words[index])
+        render :json => {:totalTests => test, :nrFailed => fail, :output => output}
     end
 end
