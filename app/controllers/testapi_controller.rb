@@ -15,3 +15,11 @@ class TestapiController < ApplicationController
         render :json => {:totalTests => test, :nrFailed => fail, :output => output}
     end
 end
+
+modified:   Gemfile.lock
+#	modified:   app/controllers/testapi_controller.rb
+#	modified:   db/development.sqlite3
+#	modified:   db/schema.rb
+#	modified:   db/test.sqlite3
+#	modified:   log/development.log
+#	modified:   test/unit/user_test.rb
