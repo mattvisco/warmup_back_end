@@ -10,19 +10,19 @@ class UserTest < ActiveSupport::TestCase
     
     def testAdd1()
         #Tests that adding a user works
-        assert_equal(SUCCESS,User.add("user1","pass"))
+        assert_equal(SUCCESS,User.add("user3","pass"))
     end
         
     def testAddExists()
         #Tests that adding a duplicate user name fails
-        assert_equal(SUCCESS,User.add("user1","pass"))
-        assert_equal(ERR_USER_EXISTS,User.add("user1","pass"))
+        assert_equal(SUCCESS,User.add("user4","pass"))
+        assert_equal(ERR_USER_EXISTS,User.add("user4","pass"))
     end
     
     def testAdd2()
         #Tests that adding two users works
-        assert_equal(SUCCESS,User.add("user1","pass"))
-        assert_equal(SUCCESS,User.add("user2","pass"))
+        assert_equal(SUCCESS,User.add("user5","pass"))
+        assert_equal(SUCCESS,User.add("user6","pass"))
     end
                 
     def testAddEmptyUsername()
@@ -39,38 +39,38 @@ class UserTest < ActiveSupport::TestCase
     def testAddLongPassword()
         #Tests that adding an user with password > 128 char fails
         pass="p"*129
-        assert_equal(ERR_BAD_PASSWORD,User.add("user1",pass))
+        assert_equal(ERR_BAD_PASSWORD,User.add("user7",pass))
     end
     
     def testEmptyPassword()
         #Tests that adding an user with password > 128 char works
-        assert_equal(SUCCESS,User.add("user1",""))
+        assert_equal(SUCCESS,User.add("user8",""))
     end
     
     
     def testLogin()
         #Tests that login with returning user works
-        user=User.add("user1","pass")
-        assert_equal(2,User.login("user1","pass"))
+        User.add("user9","pass")
+        assert_equal(2,User.login("user9","pass"))
     end
     
     def testLoginCount()
         #Tests that when login with returning user count updates properly
-        user=User.add("user1","pass")
-        assert_equal(2,User.login("user1","pass"))
-        assert_equal(3,User.login("user1","pass"))
-        assert_equal(4,User.login("user1","pass"))
+        User.add("user10","pass")
+        assert_equal(2,User.login("user10","pass"))
+        assert_equal(3,User.login("user10","pass"))
+        assert_equal(4,User.login("user10","pass"))
     end
     
     def testBadLogin1()
         #Tests that login with non-existing user fails
-        assert_equal(ERR_BAD_CREDENTIALS,User.login("user1","pass"))
+        assert_equal(ERR_BAD_CREDENTIALS,User.login("user11","pass"))
     end
     
     def testBadLogin2()
         #Tests that login with wrong password fails
-        User.add("user1","pass")
-        assert_equal(ERR_BAD_CREDENTIALS,User.login("user1","p"))
+        User.add("user12","pass")
+        assert_equal(ERR_BAD_CREDENTIALS,User.login("user12","p"))
     end
     
     
