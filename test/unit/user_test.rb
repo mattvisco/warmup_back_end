@@ -8,6 +8,10 @@ class UserTest < ActiveSupport::TestCase
     ERR_BAD_USERNAME=-3
     ERR_BAD_PASSWORD=-4
     
+    after(:each) do
+        User.delete_all
+    end
+
     def testAdd1()
         #Tests that adding a user works
         assert_equal(SUCCESS,User.add("user1","pass"))
