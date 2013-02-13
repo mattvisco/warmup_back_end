@@ -7,10 +7,6 @@ class UserTest < ActiveSupport::TestCase
     ERR_USER_EXISTS=-2
     ERR_BAD_USERNAME=-3
     ERR_BAD_PASSWORD=-4
-    
-    after(:each) do
-        User.delete_all
-    end
 
     def testAdd1()
         #Tests that adding a user works
