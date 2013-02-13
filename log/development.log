@@ -7193,3 +7193,1887 @@ Processing by TestapiController#unitTests as HTML
   Parameters: {"{}"=>nil}
 WARNING: Can't verify CSRF token authenticity
 Completed 200 OK in 2414ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:17:28 -0800
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__810953839825456791__call__3499113468994034940__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (214.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:17:29 -0800
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__810953839825456791__call__3499113468994034940__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:17:51 -0800
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__810953839825456791__call__3499113468994034940__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:17:51 -0800
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__810953839825456791__call__3499113468994034940__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:18:12 -0800
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__810953839825456791__call__3499113468994034940__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:18:12 -0800
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__810953839825456791__call__3499113468994034940__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:18:42 -0800
+Connecting to database specified by database.yml
+
+SyntaxError (/Users/mattvisco/Projects/warmup_back_end/app/controllers/testapi_controller.rb:19: syntax error, unexpected ':', expecting $end
+modified:   Gemfile.lock
+         ^):
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.4) lib/rack/etag.rb:23:in `call'
+  rack (1.4.4) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__3484901044233760528__call__2152118421383521180__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (140.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:18:43 -0800
+
+SyntaxError (/Users/mattvisco/Projects/warmup_back_end/app/controllers/testapi_controller.rb:19: syntax error, unexpected ':', expecting $end
+modified:   Gemfile.lock
+         ^):
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.4) lib/rack/etag.rb:23:in `call'
+  rack (1.4.4) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__3484901044233760528__call__2152118421383521180__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/mattvisco/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (29.5ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:19:33 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (4.2ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 43ms (Views: 0.3ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:19:33 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (48.1ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:19:33 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:19:33 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 128ms (Views: 0.3ms | ActiveRecord: 50.2ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:19:33 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:19:33 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2775ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(128) NOT NULL, "password" varchar(128), "count" integer DEFAULT 1, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130212072946')[0m
+  [1m[35m (4.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130208043926')
+  [1m[36m (3.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130208050953')[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130208052108')
+Connecting to database specified by database.yml
+  [1m[36m (2.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (15.0ms)[0m  DROP TABLE "users"
+  [1m[36m (10.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(128) NOT NULL, "password" varchar(128), "count" integer DEFAULT 1, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:28:27 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (31.3ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 84ms (Views: 0.7ms | ActiveRecord: 31.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:28:28 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:28:28 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 18923ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:28:47 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.8ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:28:47 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:29:03 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (3.1ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:29:03 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (6.2ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:29:03 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:29:03 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 39ms (Views: 0.3ms | ActiveRecord: 9.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:29:03 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:29:03 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 5024ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:30:05 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 44ms (Views: 0.4ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:30:05 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:30:05 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:30:05 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:30:05 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.7ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:30:05 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 57ms
+
+NoMethodError (undefined method `-' for nil:NilClass):
+  app/controllers/testapi_controller.rb:12:in `unitTests'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:30:46 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.4ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:30:46 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:30:46 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:30:46 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:30:46 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:30:46 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 7711ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:33:15 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (33.6ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 56ms (Views: 0.3ms | ActiveRecord: 33.6ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:33:16 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.9ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:33:16 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:33:16 UTC +00:00]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 7.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:33:16 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:33:16 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 45ms
+
+ArgumentError (invalid value for Integer(): "failures,"):
+  app/controllers/testapi_controller.rb:13:in `Integer'
+  app/controllers/testapi_controller.rb:13:in `unitTests'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:33:50 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (3.0ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 43ms (Views: 0.3ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:33:50 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:33:50 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:33:50 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:33:50 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (2.1ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:33:50 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:39:23 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (3.4ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 24ms (Views: 0.3ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:39:24 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (22.4ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:39:24 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:39:24 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 46ms (Views: 0.3ms | ActiveRecord: 24.7ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:39:24 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:39:24 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:39:36 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (3.0ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:39:36 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:39:36 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:39:36 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:39:36 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:39:36 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2570ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:40:07 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.9ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:40:07 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:40:07 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:40:07 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:40:07 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.4ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:40:07 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2669ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:40:55 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (3.1ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:40:55 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:40:55 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:40:55 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:40:56 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.6ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:40:56 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 2696ms
+
+NameError (undefined local variable or method `output' for #<TestapiController:0x007f90072b9b40>):
+  app/controllers/testapi_controller.rb:12:in `unitTests'
+
+
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:45:16 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (33.2ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 54ms (Views: 0.3ms | ActiveRecord: 33.2ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:45:17 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.3ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:45:17 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:45:17 UTC +00:00]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 30ms (Views: 0.3ms | ActiveRecord: 7.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:45:17 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:45:17 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2693ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:45:36 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.8ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:45:36 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:45:36 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:45:36 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:45:37 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.6ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:45:37 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2503ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:46:41 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (34.4ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 55ms (Views: 0.3ms | ActiveRecord: 34.4ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:46:42 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.2ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:46:42 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:46:42 UTC +00:00]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 30ms (Views: 0.2ms | ActiveRecord: 7.7ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:46:42 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:46:42 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 3019ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:47:43 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (34.1ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 55ms (Views: 0.3ms | ActiveRecord: 34.1ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:47:44 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.4ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:47:44 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:47:44 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 30ms (Views: 0.3ms | ActiveRecord: 7.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:47:44 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.9ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:47:44 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 2936ms
+
+NameError (undefined local variable or method `output' for #<TestapiController:0x007f8ccbb5dbc8>):
+  app/controllers/testapi_controller.rb:18:in `unitTests'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:50:48 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.2ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:50:48 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:50:48 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:50:48 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:50:48 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:50:48 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 9698ms
+
+NameError (undefined local variable or method `out' for #<TestapiController:0x007f8ccba81358>):
+  app/controllers/testapi_controller.rb:14:in `unitTests'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:58:23 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (4.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 56ms (Views: 0.3ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:58:25 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.4ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:58:25 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 8107ms
+
+NameError (undefined local variable or method `out' for #<TestapiController:0x007fbde140cd50>):
+  app/controllers/testapi_controller.rb:13:in `unitTests'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.6ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:58:33 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.9ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:58:33 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:59:00 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (3.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 01:59:00 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.4ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 09:59:00 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 09:59:00 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 68ms (Views: 0.3ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 01:59:00 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 01:59:00 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 2854ms
+
+NameError (undefined local variable or method `out' for #<TestapiController:0x007fbde1588c10>):
+  app/controllers/testapi_controller.rb:13:in `unitTests'
+
+
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/mattvisco/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 13:43:12 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (63.3ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 136ms (Views: 0.4ms | ActiveRecord: 63.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 13:43:15 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (7.9ms)[0m  DELETE FROM "users"
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 7.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 13:43:18 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.6ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 13:43:18 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (65.8ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 21:43:18 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 21:43:18 UTC +00:00]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 126ms (Views: 0.3ms | ActiveRecord: 72.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 13:43:18 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 13:43:18 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 5509ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 13:43:45 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.8ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 13:43:45 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Tue, 12 Feb 2013 21:43:45 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Tue, 12 Feb 2013 21:43:45 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 13:43:45 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.4ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 13:43:45 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 3197ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-12 15:04:50 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (255.7ms)
+Completed 200 OK in 4974ms (Views: 4973.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-12 15:05:09 -0800
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-02-12 15:05:09 -0800
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-12 15:05:09 -0800
+Served asset /jquery.js - 200 OK (17ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-12 15:05:09 -0800
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-12 15:05:09 -0800
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/testapi.css?body=1" for 127.0.0.1 at 2013-02-12 15:05:09 -0800
+Served asset /testapi.css - 200 OK (1ms)
+
+
+Started GET "/assets/testapi.js?body=1" for 127.0.0.1 at 2013-02-12 15:05:19 -0800
+Served asset /testapi.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-12 15:05:19 -0800
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-12 15:05:19 -0800
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-02-12 15:05:19 -0800
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-12 15:05:20 -0800
+Served asset /application.js - 200 OK (9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:53:10 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (243.1ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 245ms (Views: 0.3ms | ActiveRecord: 243.1ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 17:53:11 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 01:53:11 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 01:53:11 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 94ms (Views: 0.2ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:53:11 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 17:53:11 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 11133ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:53:22 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.7ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:53:22 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.9ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:04 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (3.0ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 17:54:04 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 01:54:04 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 01:54:04 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:04 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.7ms)[0m  DELETE FROM "users"
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 17:54:04 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2690ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:07 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.7ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:07 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.2ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 17:54:07 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2815ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:21 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (104.8ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 128ms (Views: 0.3ms | ActiveRecord: 104.8ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 17:54:22 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.2ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 01:54:22 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 01:54:22 UTC +00:00]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 7.6ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:22 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 17:54:22 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2651ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:25 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.1ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:25 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.4ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 17:54:25 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2830ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:47 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.6ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 17:54:47 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 01:54:47 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 01:54:47 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:47 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.4ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 17:54:47 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2622ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:50 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:54:50 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (2.4ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 17:54:50 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 3390ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:58:26 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 17:58:26 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 01:58:26 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 01:58:26 UTC +00:00]]
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 4.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:58:26 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (4.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 4.8ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 17:58:26 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 4870ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:58:31 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 17:58:31 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:01:25 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (12.0ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 12.0ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:01:25 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:01:25 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:01:25 UTC +00:00]]
+  [1m[36m (19.9ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 34ms (Views: 0.4ms | ActiveRecord: 21.2ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:01:25 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:01:25 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 44ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:01:25 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:01:25 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:01:25 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:01:25 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:01:25 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.4ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:01:25 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:02:14 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.4ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:02:14 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:02:14 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:02:14 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:02:14 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.6ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:02:14 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 8194ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:02:22 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.7ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:02:22 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.2ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:06:10 -0800
+Connecting to database specified by database.yml
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (35.8ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 58ms (Views: 0.3ms | ActiveRecord: 35.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:06:11 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:06:11 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 26ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:06:11 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.2ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:06:11 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (24.4ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:06:12 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:06:12 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 50ms (Views: 0.3ms | ActiveRecord: 26.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:06:12 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:06:12 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:07:13 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.9ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:07:13 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:07:13 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:07:13 UTC +00:00]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:07:13 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.6ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:07:13 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2424ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:07:15 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.8ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:07:15 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:07:15 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2434ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:18:28 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (101.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 103ms (Views: 0.5ms | ActiveRecord: 101.5ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:18:28 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:18:28 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:18:28 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:18:28 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.6ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:18:28 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 9546ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:18:38 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (1.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:18:38 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:18:38 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:18:38 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:18:38 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "users"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:18:38 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2755ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:20:35 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (2.5ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:20:35 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:20:35 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:20:35 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:20:35 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (1.5ms)[0m  DELETE FROM "users"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:20:35 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 3023ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:20:38 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mSQL (239.2ms)[0m  [1mDELETE FROM "users"[0m
+Completed 200 OK in 241ms (Views: 0.2ms | ActiveRecord: 239.2ms)
+
+
+Started POST "/users/add" for 127.0.0.1 at 2013-02-12 18:20:38 -0800
+Processing by UsersController#add as HTML
+  Parameters: {"password"=>"[FILTERED]", "user"=>"user1"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'user1' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("count", "created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?, ?)  [["count", 1], ["created_at", Wed, 13 Feb 2013 02:20:38 UTC +00:00], ["name", "user1"], ["password", "password"], ["updated_at", Wed, 13 Feb 2013 02:20:38 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/TESTAPI/resetFixture" for 127.0.0.1 at 2013-02-12 18:20:38 -0800
+Processing by TestapiController#resetFixture as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mSQL (177.4ms)[0m  DELETE FROM "users"
+Completed 200 OK in 178ms (Views: 0.2ms | ActiveRecord: 177.4ms)
+
+
+Started POST "/TESTAPI/unitTests" for 127.0.0.1 at 2013-02-12 18:20:38 -0800
+Processing by TestapiController#unitTests as HTML
+  Parameters: {"{}"=>nil}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2682ms (Views: 0.4ms | ActiveRecord: 0.0ms)
